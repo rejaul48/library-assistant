@@ -5,22 +5,26 @@ const Footer = () => {
         <>
             <footer className='2xl:container 2xl:mx-auto  bg-base-300 text-base-content p-5 mt-24'>
 
-                <section className="footer grid grid-cols-2 md:grid">
-                    <nav>
+                <section className="footer grid grid-cols-2 md:grid-cols-3">
+
+                    <nav className='w-full'>
+                        <h6 className="footer-title">Company</h6>
+                        <h4 className="link link-hover">About us</h4>
+                        <h4 className="link link-hover">Contact</h4>
+                        <h4 className="link link-hover">Jobs</h4>
+                        <h4 className="link link-hover">Press kit</h4>
+                    </nav>
+
+                    <nav className='w-full'>
                         <h6 className="footer-title">Services</h6>
                         <a className="link link-hover">Branding</a>
                         <a className="link link-hover">Design</a>
                         <a className="link link-hover">Marketing</a>
                         <a className="link link-hover">Advertisement</a>
                     </nav>
-                    <nav>
-                        <h6 className="footer-title">Company</h6>
-                        <a className="link link-hover">About us</a>
-                        <a className="link link-hover">Contact</a>
-                        <a className="link link-hover">Jobs</a>
-                        <a className="link link-hover">Press kit</a>
-                    </nav>
-                    <nav>
+
+                    {/* social media handle */}
+                    <nav className='w-full'>
                         <h6 className="footer-title">Social</h6>
                         <div className="grid grid-flow-col gap-4">
                             <a>
