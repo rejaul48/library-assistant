@@ -3,9 +3,9 @@ import React from 'react'
 const Footer = () => {
     return (
         <>
-            <footer className='bg-base-300 text-base-content p-10 mt-24'>
+            <footer className='2xl:container 2xl:mx-auto  bg-base-300 text-base-content p-5 mt-24'>
 
-                <section className="container mx-auto footer grid grid-cols-2 md:grid">
+                <section className="footer grid grid-cols-2 md:grid">
                     <nav>
                         <h6 className="footer-title">Services</h6>
                         <a className="link link-hover">Branding</a>

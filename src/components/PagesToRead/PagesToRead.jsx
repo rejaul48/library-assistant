@@ -1,6 +1,6 @@
-
+// PagesToRead.jsx
 import React, { useEffect, useState } from 'react';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 // Sample data structure for ReadBooks and Wishlist
 const ReadBooks = [
@@ -38,25 +38,27 @@ const PagesToRead = () => {
     }, []); // Empty dependency array means this effect runs once when the component mounts
 
     return (
-        <section className='container mx-auto mt-12'>
-            <BarChart
-                width={1200}
-                height={450}
-                data={chartData}
-                margin={{
-                    top: 5, right: 30, left: 20, bottom: 5,
-                }}
-            >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Bar dataKey="pages" fill="#8884d8" />
-            </BarChart>
+        <section className="container mx-auto mt-12 px-4">
+            <div className="w-full max-w-7xl mx-auto">
+                {/* Responsive container */}
+                <ResponsiveContainer width="100%" height={400}>
+                    <BarChart
+                        data={chartData}
+                        margin={{
+                            top: 5, right: 30, left: 20, bottom: 5,
+                        }}
+                    >
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis dataKey="name" />
+                        <YAxis />
+                        <Tooltip />
+                        <Legend />
+                        <Bar dataKey="pages" fill="#8884d8" />
+                    </BarChart>
+                </ResponsiveContainer>
+            </div>
         </section>
     );
 }
 
 export default PagesToRead;
-
