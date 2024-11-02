@@ -28,10 +28,10 @@ const ReadWish = ({ book }) => {
                         <h3>Publisher: {publisher}</h3>
                         <p>Total pages: {total_page}</p>
                     </div>
-                    <div className=' grid grid-cols-12 gap-2 mt-2 text-center items-center'>
-                        <div className='bg-green-300 py-2 px-3 rounded-lg bg-opacity-45 col-span-6 md:col-span-4 text-xs md:text-sm font-bold'>Category: {category}</div>
-                        <div className='bg-green-300 px-3 rounded-lg bg-opacity-45 col-span-6 md:col-span-4 text-xs md:text-sm font-bold py-4'>Rating: {rating}</div>
-                        <Link to={`/details/${book.id}`} className='bg-lime-300 px-3 py-3 rounded-lg col-span-12 md:col-span-4'>View Details</Link>
+                    <div className=' grid grid-cols-12 gap-3 mr-2 mt-2 text-center items-center'>
+                        <div className='bg-green-300 py-4 px-3 rounded-lg bg-opacity-45 col-span-6 md:col-span-4 lg:col-span-3 text-xs md:text-sm font-bold'>Category: {category}</div>
+                        <div className='bg-green-300 px-3 rounded-lg bg-opacity-45 col-span-6 md:col-span-4 lg:col-span-3 text-xs md:text-sm font-bold py-4'>Rating: {rating}</div>
+                        <Link to={`/details/${book.id}`} className='bg-lime-300 px-3 py-4 rounded-lg col-span-12 md:col-span-4 lg:col-span-3'>View Details</Link>
                     </div>
                 </div>
             </div>

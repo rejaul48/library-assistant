@@ -1,18 +1,44 @@
-import React from 'react'
-import { Header } from '../Header/Header'
-import { Outlet } from 'react-router-dom'
-import Footer from '../Footer/Footer'
+// Layout.jsx
+import React, { useEffect, useState } from 'react';
+import { Outlet, useNavigation } from 'react-router-dom';
+import { Header } from './../Header/Header';
+import Footer from '../Footer/Footer';
+import Spinner from '../Spinner/Spinner';
 
 const Layout = () => {
-    return (
-        <>
+  const navigation = useNavigation();
+  const [isLoading, setIsLoading] = useState(false);
 
-            <Header ></Header>
-            <Outlet ></Outlet>
-            <Footer ></Footer>
+  useEffect(() => {
+    let timer;
 
-        </>
-    )
-}
+    if (navigation.state === 'loading') {
+      setIsLoading(true);
 
-export default Layout
+     
+      timer = setTimeout(() => {
+        setIsLoading(false);
+      }, 1000);  
+    } else {
+       
+      timer = setTimeout(() => {
+        setIsLoading(false);
+      }, 1000); 
+    }
+
+   
+    return () => clearTimeout(timer);
+  }, [navigation.state]);
+
+  return (
+    <>
+      <Header />
+      {
+        isLoading ? <Spinner /> : <Outlet />
+      }
+      <Footer />
+    </>
+  );
+};
+
+export default Layout;
