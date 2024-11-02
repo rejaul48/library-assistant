@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "book_name": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "image": "https://i.imgur.com/iJNPcoy.png",
+        "total_page": 281,
+        "rating": 4.8,
+        "category": "Fiction",
+        "categories": [
+            "Fiction",
+            "Classic"
+        ],
+        "publisher": "J.B. Lippincott & Co.",
+        "review": "This unforgettable novel is a powerful exploration of racial injustice and moral growth. Set in the American South, it follows young Scout Finch and her father, Atticus, a lawyer defending an innocent black man accused of rape. Through a child's eyes, readers are invited to confront prejudice and injustice, with compassion and courage. Harper Lee's storytelling has captured hearts for generations, making it a timeless classic on empathy and resilience."
+    },
+    {
+        "id": 2,
+        "book_name": "1984",
+        "author": "George Orwell",
+        "image": "https://i.imgur.com/AZkb73z.png",
+        "total_page": 328,
+        "rating": 4.6,
+        "category": "Dystopian",
+        "categories": [
+            "Dystopian",
+            "Science"
+        ],
+        "publisher": "Secker & Warburg",
+        "review": "Orwell's dystopian novel remains hauntingly relevant, depicting a society under total surveillance and control by a powerful regime. In this world, even thoughts are regulated, and history is rewritten. The story of Winston Smith, who dares to defy Big Brother, serves as a powerful warning against authoritarianism. Its insights into power, oppression, and individuality offer readers a stark reflection on freedom and autonomy, encouraging deep questioning of authority and control."
+    },
+    {
+        "id": 3,
+        "book_name": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "image": "https://i.imgur.com/0AYKchv.png",
+        "total_page": 279,
+        "rating": 4.7,
+        "category": "Classic",
+        "categories": [
+            "Classic",
+            "Romance"
+        ],
+        "publisher": "T. Egerton, Whitehall",
+        "review": "Austen's beloved novel combines romance and social commentary, following Elizabeth Bennet as she navigates class, reputation, and love. The witty exchanges between Elizabeth and Mr. Darcy are delightful, and their relationship development feels authentic and captivating. Set against the English Regency backdrop, Austen's insights into social expectations add depth to the narrative. This classic remains a must-read for its enduring themes on self-discovery, societal expectations, and personal values."
+    },
+    {
+        "id": 4,
+        "book_name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "image": "https://i.imgur.com/eQR6iCt.png",
+        "total_page": 180,
+        "rating": 4.5,
+        "category": "Classic",
+        "categories": [
+            "Classic",
+            "Fiction"
+        ],
+        "publisher": "Charles Scribner's Sons",
+        "review": "Set in the glitzy Jazz Age, Fitzgerald's novel explores wealth, excess, and love through the mysterious figure of Jay Gatsby. His unrequited love for Daisy Buchanan drives him to extraordinary lengths, ultimately leading to tragic consequences. Through Nick Carraway's narration, we see the emptiness behind the glamour and the American Dream's broken promises. The novel's lyrical prose and timeless themes continue to resonate, making it a true American classic."
+    },
+    {
+        "id": 5,
+        "book_name": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "image": "https://i.imgur.com/iQrdOjy.png",
+        "total_page": 214,
+        "rating": 4.3,
+        "category": "Fiction",
+        "categories": [
+            "Fiction",
+            "Adult"
+        ],
+        "publisher": "Little, Brown and Company",
+        "review": "Salinger's novel is a candid exploration of teenage angst and alienation. Through the voice of Holden Caulfield, readers experience his struggles with identity, loss, and belonging in a world that feels phony. Holden's journey, filled with emotional turmoil and relatable frustrations, speaks powerfully to young and old alike. Salinger's honest portrayal of a vulnerable, complex protagonist has made this a touchstone in American literature for decades."
+    },
+    {
+        "id": 6,
+        "book_name": "Moby Dick",
+        "author": "Herman Melville",
+        "image": "https://i.imgur.com/WBBFfCp.png",
+        "total_page": 635,
+        "rating": 4.1,
+        "category": "Adventure",
+        "categories": [
+            "Adventure",
+            "Classic"
+        ],
+        "publisher": "Harper & Brothers",
+        "review": "An epic of obsession and vengeance, Melville's story follows Captain Ahab's relentless pursuit of the elusive white whale, Moby Dick. The novel dives deep into themes of fate, revenge, and the limits of human knowledge, offering profound philosophical insights. Melville's rich, symbolic prose and complex characters create a challenging yet rewarding experience for readers willing to journey into the depths of humanity and the unknowns of the sea."
+    },
+    {
+        "id": 7,
+        "book_name": "War and Peace",
+        "author": "Leo Tolstoy",
+        "image": "https://i.imgur.com/aMloaOc.png",
+        "total_page": 1225,
+        "rating": 4.9,
+        "category": "Historical",
+        "categories": [
+            "Historical",
+            "Epic"
+        ],
+        "publisher": "The Russian Messenger",
+        "review": "Tolstoy's monumental work captures the vast sweep of Russian society during the Napoleonic Wars. It interweaves personal and historical narratives, creating a rich tapestry of characters and philosophical reflections. With its unforgettable characters, from Pierre to Natasha, the novel explores themes of fate, freedom, and love. Tolstoy's nuanced storytelling provides insight into human nature, making 'War and Peace' one of the greatest achievements in literary history."
+    },
+    {
+        "id": 8,
+        "book_name": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "image": "https://i.imgur.com/A2WFGto.png",
+        "total_page": 310,
+        "rating": 4.8,
+        "category": "Fantasy",
+        "categories": [
+            "Fantasy",
+            "Adventure"
+        ],
+        "publisher": "George Allen & Unwin",
+        "review": "A whimsical yet profound tale of courage and friendship, 'The Hobbit' invites readers into Middle-earth, where Bilbo Baggins embarks on an unexpected journey. Tolkien's world-building shines as he introduces characters like Gandalf and Smaug. Themes of bravery, home, and self-discovery unfold beautifully, making it a must-read for fantasy fans. This classic has inspired generations, with Tolkien's imagination leaving an indelible mark on literature."
+    },
+    {
+        "id": 9,
+        "book_name": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "image": "https://i.imgur.com/PjPKpaO.png",
+        "total_page": 158,
+        "rating": 4.4,
+        "category": "Science Fiction",
+        "categories": [
+            "Fiction",
+            "Dystopian"
+        ],
+        "publisher": "Ballantine Books",
+        "review": "Bradbury's cautionary tale warns of a world where books are banned, and critical thinking is discouraged. Fireman Guy Montag, tasked with burning books, begins to question society's values, sparking his journey toward self-awareness. Through this dystopian lens, Bradbury explores themes of censorship, conformity, and the power of literature. His powerful storytelling resonates today, emphasizing the importance of free thought and the dangers of a controlled society."
+    }
+]
