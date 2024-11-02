@@ -2,10 +2,10 @@ import React from 'react'
 
 const Banner = () => {
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto  px-4 xl:px-0'>
 
-            <div className="hero mt-8 px-4 xl:px-0">
-                <div className="container mx-auto  hero-content flex-col lg:flex-row-reverse bg-green-300 bg-opacity-20 p-12 rounded-lg">
+            <div className="hero mt-8 bg-green-300 bg-opacity-20 rounded-lg">
+                <div className="   hero-content flex-col lg:flex-row-reverse  py-5 ">
                     <div className='hero_img lg:w-4/12 flex items-center'>
                         <img
                             src="https://i.imgur.com/iJNPcoy.png"
