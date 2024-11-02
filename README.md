@@ -41,6 +41,10 @@ cd your_repository
 npm install
 
 ```
+
+## Live Demo
+[Live demo link](https://library-assistant.surge.sh/)
+
 **Note:** "Page to Read" The page is now static, it will be made dynamic in the future.
 
 ## Contact me
